@@ -50,7 +50,7 @@ eeeeeeeeeeeeee
 8. 상태창 열기 (어떤 파일을 스테이징 했는지, 수정 했는지)
     $ git status
 9. commit 내역 조회
-    $ git log --all  --oneline
+    $ git log --all --oneline
 
 
 
@@ -64,7 +64,7 @@ eeeeeeeeeeeeee
     # 이게 비주얼적으로 조금더 좋음
 3. 현재 파일 vs 특정 커밋 비교
     $ git difftool 커밋아이디
-    # 커밋 아이디란 $ git log --all  --oneline 이거 했을때 왼쪽의 노란 아이디
+    # 커밋 아이디란 $ git log --all --oneline 이거 했을때 왼쪽의 노란 아이디
 4. 특정 커밋 vs 특정 커밋
     $ git difftool 커밋아이디1 커밋아이디2
     # 익스텐션에 git graph 있는데 잘 쓰면 편함
@@ -80,3 +80,7 @@ eeeeeeeeeeeeee
 4. 특정 노드에서(커밋한 구간에서) branch를 하고 새로운 파일을 만들고 커밋 -> 작성 -> 커밋 하고
 5. 다시 브랜치가 뻗어나온 노드인 main으로 돌아가면 새로 만들었던 파일은 없어짐
 6. 왜냐하면 그 파일은 branch한(예: coupon이라는) 노드에서 생성했기 때문에
+7. 그래프로 쭉 볼려면
+    $ git log --oneline --all --graph
+
+8. 메인 브랜치 합치기
