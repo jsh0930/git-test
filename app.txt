@@ -211,7 +211,7 @@ eeeeeeeeeeeeee
 1. GitHub에서 미리 레포지토리 생성
 2. GitHub로 올리거나 가져올 때 사용
 3. GitHub 주소 연결
-    $ git remote add origin 주소
+    $ git remote add origin 주소    # 주소를 origin이라는 별명으로 원격 저장소 추가
 4. 깃허브에 올리기
     $ git push origin 브랜치명
 5. 폴더 통째로 다운로드
